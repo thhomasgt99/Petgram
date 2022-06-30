@@ -1,9 +1,10 @@
 {
-  "name": "curso-avanzado-de-react",
+  "name": "Petgram",
   "version": "1.0.0",
   "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
   "main": "index.js",
   "scripts": {
+    "vercel-build": "npm run build",
     "build": "webpack",
     "dev": "webpack serve --mode development",
     "lint": "standard --fix",
@@ -25,7 +26,9 @@
   "dependencies": {
     "html-webpack-plugin": "^5.5.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.3.5"
   },
   "standard": {
     "ignore": [
@@ -33,6 +36,8 @@
     ]
   },
   "eslintConfig": {
-    "extends":["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
