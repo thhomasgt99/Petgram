@@ -5,6 +5,7 @@
 - react
 - styled-components       -> CSS in JS
 - react-icons              -> iconos de React
+- intersection-observer   -> polyfill intersecton observer
 
 ## Dependencias de desarrollo
 - webpack
@@ -16,4 +17,6 @@
 - @babel/preset-react     -> Compila	jsx y sintax de react
 - standard                -> linter(borra ;), tambien audita a react
 
+#### *Nota: este proyecto esta desplegado en vecel sin integracion con github*
+#### *Nota: para mandar cambios a vercel(produccion) tenemos el comando vercel --prod*
 

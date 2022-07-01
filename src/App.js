@@ -1,6 +1,6 @@
 import React from 'react'
 import { ListOfCategories } from './components/ListOfCategories'
-import { GlobalStyle } from './GlobalStyles' //estos son los estilos globales hechos con stiled
+import { GlobalStyle } from './styles/GlobalStyles' //estos son los estilos globales hechos con stiled
 import { ListOfPhotoCards } from './components/ListOfPhotoCards'
 import { Logo } from './components/Logo'
 
